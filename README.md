@@ -8,14 +8,15 @@ Yup
 
 ## TODO 
 
-[] Create board, print board
-[] Game Loop
-[] Pieces
-[] Movments and stubs for checks
-[] Piece Checks
-[] Win Checks
-[] Check + Checkmate + Stalemate?
-[]  
+- [x] Create board, print board
+- [ ] Print board in colors + Ascii
+- [ ] Game Loop
+- [ ] Pieces
+- [ ] Movments and stubs for checks
+- [ ] Piece Checks
+- [ ] Win Checks
+- [ ] Check + Checkmate + Stalemate?
+- [ ]  
 
 # Observations on returning to C++
 

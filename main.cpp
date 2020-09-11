@@ -8,34 +8,36 @@ using namespace std;
 
 /*
 
-[x] Create board, print board
-[] Print board in colors + Ascii
-[] Game Loop
-[] Pieces
-[] Movments and stubs for checks
-[] Piece Checks
-[] Win Checks
-[] Check + Checkmate + Stalemate?s
+- [x] Create board, print board
+- [] Print board in colors + Ascii
+- [] Game Loop
+- [] Pieces
+- [] Movments and stubs for checks
+- [] Piece Checks
+- [] Win Checks
+- [] Check + Checkmate + Stalemate?s
 
 */
 
 
 int main(){
 
-	Piece test = blackknight;
 	bool gameOver = false;
 	string move;
 
+	cout << "hello world \n";
+	cout << "♔";
+	cout << "\033[1;7mWelcome to Chess in C++\033[0m";	
+	cout << "♚\n";
+
 	while(!gameOver){
-		cout << "hello world \n";
-		cout << "♔";
-		cout << "\033[1;7minverted red text\033[0m\n";
 
 		PrintBoard();
-
 		cout << "Please enter your turn (format B2 B3) : ";
 		getline (cin, move);
+		// handleInput(move)
 		cout << "\nYou entered:  " << move  << '\n';
+		cout << move[1];
 	}
 
 	return 0;

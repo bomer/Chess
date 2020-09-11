@@ -1,2 +1,1 @@
-g++ main.cpp
-./a.out
+g++ main.cpp && ./a.out
